@@ -1,0 +1,182 @@
+{
+  "description": "Expertise rules. Directed links are initial domain heuristics, not validated academic eligibility.",
+  "minimum_papers_for_direct_topic": 3,
+  "minimum_relative_frequency": 0.25,
+  "minimum_source_relative_frequency_for_inference": 0.6,
+  "minimum_relationship_for_inference": 0.7,
+  "minimum_inferred_score": 0.45,
+  "topic_names": {
+    "1402": "Accounting",
+    "1403": "Business and International Management",
+    "1404": "Management Information Systems",
+    "1405": "Management of Technology and Innovation",
+    "1406": "Marketing",
+    "1702": "Artificial Intelligence",
+    "1703": "Computational Theory and Mathematics",
+    "1705": "Computer Networks and Communications",
+    "1706": "Computer Science Applications",
+    "1707": "Computer Vision and Pattern Recognition",
+    "1708": "Hardware and Architecture",
+    "1709": "Human-Computer Interaction",
+    "1710": "Information Systems",
+    "1711": "Signal Processing",
+    "1712": "Software",
+    "2000": "General Economics, Econometrics and Finance",
+    "2002": "Economics and Econometrics",
+    "2003": "Finance",
+    "2203": "Automotive Engineering",
+    "2207": "Control and Systems Engineering",
+    "2208": "Electrical and Electronic Engineering",
+    "2209": "Industrial and Manufacturing Engineering",
+    "2214": "Media Technology",
+    "2602": "Algebra and Number Theory",
+    "2604": "Applied Mathematics",
+    "2608": "Geometry and Topology",
+    "2611": "Modeling and Simulation",
+    "2612": "Numerical Analysis",
+    "2613": "Statistics and Probability",
+    "2614": "Theoretical Computer Science"
+  },
+  "relationships": {
+    "1402": {
+      "2003": 0.8,
+      "2000": 0.7
+    },
+    "1403": {
+      "1406": 0.75,
+      "1405": 0.75,
+      "1404": 0.7
+    },
+    "1404": {
+      "1710": 0.9,
+      "1403": 0.7,
+      "1706": 0.7
+    },
+    "1405": {
+      "1403": 0.85,
+      "1404": 0.7,
+      "2209": 0.7
+    },
+    "1406": {
+      "1403": 0.8,
+      "1405": 0.7
+    },
+    "1702": {
+      "1706": 0.8,
+      "1707": 0.7
+    },
+    "1703": {
+      "2614": 0.95,
+      "2604": 0.7
+    },
+    "1705": {
+      "2208": 0.75,
+      "1708": 0.7
+    },
+    "1706": {
+      "1712": 0.7,
+      "1710": 0.7
+    },
+    "1707": {
+      "1702": 0.9,
+      "1711": 0.8,
+      "2214": 0.7
+    },
+    "1708": {
+      "2208": 0.85,
+      "1705": 0.75
+    },
+    "1709": {
+      "1706": 0.8,
+      "2214": 0.8,
+      "1710": 0.7
+    },
+    "1710": {
+      "1404": 0.85,
+      "1706": 0.75,
+      "1712": 0.7
+    },
+    "1711": {
+      "2208": 0.8,
+      "2214": 0.75,
+      "1707": 0.7
+    },
+    "1712": {
+      "1706": 0.8,
+      "1710": 0.7
+    },
+    "2000": {
+      "2002": 0.85,
+      "2003": 0.8,
+      "1402": 0.7
+    },
+    "2002": {
+      "2000": 0.9,
+      "2613": 0.75,
+      "2003": 0.7
+    },
+    "2003": {
+      "2000": 0.85,
+      "1402": 0.8,
+      "2002": 0.75
+    },
+    "2203": {
+      "2207": 0.8,
+      "2209": 0.75,
+      "2208": 0.7
+    },
+    "2207": {
+      "2611": 0.8,
+      "2208": 0.8,
+      "2203": 0.7
+    },
+    "2208": {
+      "2207": 0.8,
+      "1708": 0.75,
+      "1711": 0.75
+    },
+    "2209": {
+      "2611": 0.75,
+      "2203": 0.75,
+      "2207": 0.7,
+      "1405": 0.7
+    },
+    "2214": {
+      "1709": 0.8,
+      "1711": 0.75,
+      "1707": 0.7
+    },
+    "2602": {
+      "2604": 0.75,
+      "2608": 0.7,
+      "1703": 0.7
+    },
+    "2604": {
+      "2611": 0.85,
+      "2612": 0.85,
+      "2613": 0.7
+    },
+    "2608": {
+      "2602": 0.75,
+      "2604": 0.75
+    },
+    "2611": {
+      "2604": 0.9,
+      "2612": 0.8,
+      "2207": 0.7
+    },
+    "2612": {
+      "2604": 0.9,
+      "2611": 0.85
+    },
+    "2613": {
+      "2604": 0.75,
+      "2002": 0.7,
+      "2611": 0.7
+    },
+    "2614": {
+      "1703": 0.95,
+      "2602": 0.7
+    }
+  }
+}

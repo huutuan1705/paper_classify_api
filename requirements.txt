@@ -1,5 +1,11 @@
 torch
 torchvision
-transformer
-fastapi
+transformers
+fastapi>=0.100
 uvicorn
+pydantic>=2
+numpy
+pandas
+scikit-learn
+nltk
+tqdm
